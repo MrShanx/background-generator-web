@@ -5,7 +5,7 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 0.5em;
 	top: 15%;
-	background: linear-gradient(to right, blue, green);
+	background: linear-gradient(to right, #C5A9DF, #EBC030);
 }
 
 h1 {
@@ -23,4 +23,8 @@ h3 {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.01em;
+}
+
+input, button {
+	padding: .75%;
 }
