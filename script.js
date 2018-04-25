@@ -5,17 +5,16 @@ var h3 = document.querySelector("h3");
 var body = document.getElementById("gradient");
 
 function setString() {
+	css.textContent = body.style.background + ";";
+}
+function changeGradient() {
 	var colorStr = "linear-gradient(to right, " 
 		+ colorleft.value 
 		+ ", " 
 		+ colorright.value 
 		+ ")";
-
-	h3.innerHTML = colorStr;
-	return colorStr;
-}
-function changeGradient() {
-	body.style.background = setString();
+	body.style.background = colorStr;
+	setString();
 }
 
 colorleft.addEventListener("input", changeGradient);
