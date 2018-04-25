@@ -3,5 +3,9 @@
 # background-generator-web
 Background Generator for a webpage
 <br>
+Change background color gradients on a whim, either:
 <br>
-<em>html5 css javascript</em>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -choose your own colors
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -or use the randomizer button, to generate random colors
+<em>HTML5 CSS Javascript</em>
+
