@@ -5,7 +5,7 @@ var h3 = document.querySelector("h3");
 var body = document.getElementById("gradient");
 
 function setString() {
-	css.textContent = body.style.background + ";";
+	h3.textContent = body.style.background + ";";
 }
 function changeGradient() {
 	var colorStr = "linear-gradient(to right, " 
