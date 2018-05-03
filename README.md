@@ -10,3 +10,5 @@ Change background colors on a whim. Either:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -or use the randomizer button<br><br> <br>
 <em>HTML5 CSS Javascript</em>
 
+[View Project](https://mrshanx.github.io/background-generator-web/)
+
