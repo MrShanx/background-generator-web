@@ -3,13 +3,28 @@ var colorleft = document.querySelector(".color1");
 var colorright = document.querySelector(".color2");
 var h3 = document.querySelector("h3");
 var body = document.getElementById("gradient");
+var radial = document.getElementById('checkbox');
+//set default radialcheck to false (firefox)
+radial.checked = false;
+colorleft.value = '#C5A9DF';
+colorright.value = '#EBC030';
 
 function setString() {
-	var colorStr = "linear-gradient(to right, " 
-		+ colorleft.value 
-		+ ", " 
-		+ colorright.value 
-		+ ")";
+	var colorStr;
+	if(!radial.checked) {
+		colorStr = "linear-gradient(to right, " 
+			+ colorleft.value 
+			+ ", " 
+			+ colorright.value 
+			+ ")";
+	}
+	if(radial.checked) {
+		colorStr= "radial-gradient(" 
+			+ colorright.value 
+			+ ", " 
+			+ colorleft.value 
+			+ ")";
+	}
 
 	h3.textContent = colorStr + ";";
 	return colorStr;
@@ -41,5 +56,14 @@ function randomGradient() {
 	colorright.value = getRandomColor();
 	changeGradient();
 }
+
+
+//radial
+radial.addEventListener("click", radialGradient);
+
+function radialGradient() {
+	changeGradient();
+}
+
 
 
