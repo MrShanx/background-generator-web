@@ -1,0 +1,22 @@
+{
+  "name": "background-generator-web",
+  "version": "1.0.0",
+  "description": "<strong><a href=\"https://mrshanx.github.io/background-generator-web/\" target=\"_blank\">Check out project</a></strong>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrShanx/background-generator-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrShanx/background-generator-web/issues"
+  },
+  "homepage": "https://github.com/MrShanx/background-generator-web#readme",
+  "dependencies": {
+  }
+}
